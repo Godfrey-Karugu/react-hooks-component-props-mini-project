@@ -1,8 +1,17 @@
 import React from 'react'
 
-function Article() {
+function Article(props) {
   return (
-    <div>Article</div>
+      
+        <article >
+          <h3>{props.title}</h3>
+          <small>{props.date}</small>
+          <p>{props.preview}</p>
+
+        </article>
+      
+    
+   
   )
 }
 
